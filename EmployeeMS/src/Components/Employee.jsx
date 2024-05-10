@@ -13,7 +13,7 @@ const Employee = () => {
         console.log(employees);
       })
       .catch((error) => console.log(error));
-  }, []);
+  });
 
   return (
     <div className="px-5 mt-3">
